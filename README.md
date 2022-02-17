@@ -25,6 +25,7 @@ Result
 Project's Resources 
 ----------------
 -> Notebook:https://github.com/ayush505/AWS_Aganitha_Assignment/blob/main/Outcome/Mini_project.ipynb
+
 ->Projects Link: https://github.com/ayush505/AWS_Aganitha_Assignment
 
 
