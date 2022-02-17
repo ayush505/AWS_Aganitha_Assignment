@@ -10,9 +10,9 @@ Mini-Project to study the working of the AWS --
 
 -----------
 Project's Resources 
----------------
-* Notebookk Link: https://github.com/theanandankit/AWS-NoteBook-Postgres/blob/master/Result/Aganitha%20Summer%20Project.ipynb
-* Video presentation Link: https://drive.google.com/file/d/1MLIMNnNULAIpa7c-HzMtX03HgpxNRUpM/view?usp=sharing
-* Report Link: https://github.com/theanandankit/AWS-NoteBook-Postgres/blob/master/Result/Aganitha%20Cognitive%20Solutions%20Summer%20Internship%20Assignment.pdf
+----------------
+-> Notebook:https://github.com/ayush505/AWS_Aganitha_Assignment/blob/main/Outcome/Mini_project.ipynb
+->Projects Link: https://github.com/ayush505/AWS_Aganitha_Assignment
+
 
 
