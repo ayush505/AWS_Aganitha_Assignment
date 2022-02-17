@@ -1,0 +1,26 @@
+version: '3.7'
+
+services:
+    postgres:
+        restart: unless-stopped
+        container_name: database
+        image: postgres:latest
+        environment:
+            POSTGRES_USER: ${POSTGRES_USER:-AyushKatiyar}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-Ayush@12345}
+            POSTGRES_DB: ${POSTGRES_DB:-data}
+        ports:
+            - 5432:5432
+        volumes:
+            - /var/lib/postgresql/data
+            - ./dataset.sql:/docker-entrypoint-initdb.d/dataset.sql
+
+    jupyter-notebook:
+        restart: unless-stopped
+        image: jupyter/datascience-notebook:latest
+        environment:
+            JUPYTER_TOKEN: pass
+        volumes:
+            - /home/joyves/work
+        ports:
+            - 8888:8888
